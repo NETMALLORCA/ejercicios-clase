@@ -1,0 +1,124 @@
+*{
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, span, li, p, label, a, input {
+  font-family: "Outfit", sans-serif;
+  margin: 0;
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+img{
+  object-fit: cover;
+  width: 100%;
+}
+
+body{
+  align-items: center;
+  background-color:hsl(256, 85%, 20%) ;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+main{
+  align-items: center;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5rem;
+  width: 100%;
+}
+
+main h2{
+  color: hsl(0, 0%, 100%);
+  display: flex;
+  padding: 1rem;
+  gap: 2rem;
+  text-transform: capitalize;
+}
+
+.form-element{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.2rem;
+  text-transform: capitalize;
+}
+
+.form-element label{
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+}
+
+.form-element input{
+  background-color: hsl(226, 63%, 45%);
+  border: none;
+  padding: 0.5rem 1rem;
+
+}
+
+.button {
+  display: flex;
+}
+
+.button button {
+  border: none;
+  background-color:rgb(92,54,125);
+  width: 100%;
+  color: white;
+  font-size: 1.1rem;
+  text-transform: capitalize;
+  padding: 0.4rem 0;
+  border-radius: 0.5rem;
+}
+
+.clave {
+  color: hsl(0, 0%, 100%);
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+  justify-content: center;
+  gap: 1rem;
+  text-align: center;
+}
+
+.clave a::first-letter{
+  text-transform: uppercase;
+}
+
+head h3{
+color:hsl(0, 0%, 100%)}
+
+
+.button- {
+  border: none;
+  background-color:rgb(92,54,125);
+  width: 100%;
+  color: white;
+  font-size: 1.1rem;
+  text-transform: capitalize;
+  padding: 0.4rem 0;
+  border-radius: 0.5rem;
+}
