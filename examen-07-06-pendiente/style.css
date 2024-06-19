@@ -5,15 +5,16 @@ body{
     }
 
 .table{
+    display: flex;
     padding: 1rem;
+    
 }
 
 .menu {
     display: flex;
-    flex-direction: row;
-    width: max-content;
     gap: 1rem;
 }
+
 
 .list {
     display: flex;
